@@ -1,5 +1,5 @@
 # Sketchup-Progress-Bar
-An Escape-able progreess ba
+An Escape-able progreess bar
 
 Example of block form:
 
