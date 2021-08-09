@@ -9,7 +9,7 @@ Example of block form:
     SW::ProgressBar.new(method(:on_complete), method(:on_abort)) do |pbar|
       count = 1000
       count.times {|i|
-        sleep(0.01)
+        sleep(0.005)
         if pbar.update? # has the update time expired
           pbar.label= "Remaining: #{count - i}" # text
           pbar.set_value(i/10) # 0 to 100
